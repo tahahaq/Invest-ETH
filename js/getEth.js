@@ -15,6 +15,8 @@ function loadDoc() {
                     ethValue=data.USD;
                     console.log(ethValue);
                     document.getElementById('activeInvestment').innerHTML=ethValue;
+                    document.getElementById('activeCommision').innerHTML=ethValue;
+                    document.getElementById('activeProfit').innerHTML=ethValue;
             // if(data.responseCode === 200){
             //     $(function () {
 						// 			console.log(data);
