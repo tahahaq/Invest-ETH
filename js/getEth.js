@@ -17,6 +17,7 @@ function loadDoc() {
                     document.getElementById('activeInvestment').innerHTML=ethValue;
                     document.getElementById('activeCommision').innerHTML=ethValue;
                     document.getElementById('activeProfit').innerHTML=ethValue;
+                    document.getElementById('potbalance').innerHTML=ethValue;
             // if(data.responseCode === 200){
             //     $(function () {
 						// 			console.log(data);
