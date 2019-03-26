@@ -1,0 +1,295 @@
+
+body{
+	overflow-X:hidden;
+	
+}
+
+.row .padzero{
+	padding:0px;
+}
+.hidden{
+	display:none;
+}
+.fixed{
+	position:fixed;
+}
+.divider{
+	height:50px;
+}
+.menufixed{
+	border-right: 1px solid #4a4a49;
+	background: #17181b;
+	color: #ada9a4;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	height:100%;
+	min-height:700px;
+}
+.menufixed h1{
+	text-align:center;
+	background:#191f2b;
+	padding:2%;
+	margin:0px;
+}
+.menufixed span img{
+	height:100px;
+	width:100%;
+}
+.menufixed ul{
+	padding:0px;
+}
+.menufixed ul li{
+	list-style-type:none;
+	padding:5%;
+	padding-left:10%;
+	border-bottom:1px solid #000;
+}
+.menufixed ul li a{
+	text-decoration:none;
+	color:#fff;
+	/* font-size:20px; */
+	/* text-transform:uppercase; */
+}
+.menufixed ul li:hover{
+	background:#1b1e24;
+}
+.active{
+	background:#191f2b;
+}
+
+.navbackg{
+	background: #191f2b;
+}
+.navbar{
+	background: #191f2b;
+	border-bottom:1px solid silver;
+	color:#fff;
+}
+.navbar a{
+	font-size: 11px;
+	text-decoration:none;
+	color: #efefef;
+}
+.navbar-nav button{
+	background:#efefef;
+	border:1px solid #b5823b;
+	color:#4f5b65;
+	font-weight:bold;
+}
+.navbar-nav button:hover{
+	background:#b5823b;
+	border:1px solid #efefef;
+}
+.maincontent{
+	width:100%;
+	height:100%;
+	background: #15181f;
+	padding:2%;
+	min-height:700px;
+	color: #ffffff;
+	/* font-weight:bold; */
+}
+.topbox{
+	border: 1px solid #3c3c3c;
+	background: #1b1e24;
+	/* box-shadow:2px 3px #c12222; */
+	/* border-radius:5%; */
+	text-align:center;
+	/* margin:1%; */
+}
+.topboxbackg1{background: #1b1e24;padding:1%;}
+.topboxbackg2{background: #1b1e24;}
+.topboxbackg3{background: #1b1e24;}
+.topboxbackg4{background: #1b1e24;}
+.topbox:hover{
+	background:#01121b;
+}
+.topbox input{
+		width:100%;
+		border:none;
+	}
+.topbox p{
+	font-size:12px;
+	margin:0px;
+}
+.topbox h5{
+	text-shadow: 2px 5px 10px #1b1e24;
+}
+.topbox:hover p span{
+	color:#1caf9a;
+}
+.topbox button{
+	background: #1b1e24;
+	border: 1px solid #757275;
+	font-size:12px;
+	color: #9fa1a2;
+	margin:1%;
+}
+.topbox button:hover{
+	background:#010a0f;
+	border:1px solid #828182;
+}
+.chart_grph_table h3{
+	text-align:center;
+	padding:2%;
+	width:100%;
+	min-height:50px;
+	background: #3b4148;
+	/* border-radius:5%; */
+	box-shadow: 0px 1px 0px 0px #0000008f;
+	/* text-shadow:2px 5px 8px gray; */
+}
+
+.Investment_Tiers{
+	text-align:center;
+	background:#191f2b;
+	box-shadow: 1px 1px silver;
+	border-radius: %;
+	min-height:160px;
+}
+.Investment_Tiers table {
+	width:100%;
+	min-height:;
+}
+.Investment_Tiers table td{
+	border-bottom:1px solid silver;
+	color: #ffffff;
+}
+.Investment_Tiers table th{
+	border-top:1px solid gray;
+	border-bottom:1px solid gray;
+	color:#6280a1;
+}
+.Investment_Tiers tbody tr:nth-child(odd) {background: #15181f}
+.Investment_Tiers tbody:hover tr:nth-child(odd) {background: #00000f; color:#FFF;}
+
+.chart_box{
+	background: #1b1e24;
+	/* box-shadow:1px 1px #c0c0c054; */
+	/* border-radius:5%; */
+	padding-left:22%;
+	padding-top:1%;
+	max-height:160px;
+	min-height:160px;
+	margin: %;
+}
+.chart_box:hover{
+	background:#191f2b;
+}
+.graphbox{
+	background:#1b1e24;
+	box-shadow:0px 0px silver;
+	border-radius:1%;
+	padding:1.5%;
+	min-height:160px;
+	max-height:160px;
+	margin:1%;
+	overflow:hidden;
+}
+.graphbox:hover{
+	background:#191f2b;
+}
+.graphbox  img{
+    width:contain;
+    min-height:150px;
+}
+.header-div{
+    display:none;
+}
+.graphbox canvas{
+    height:70px;
+}
+
+.Tokenactivity{
+    margin:2%;
+    min-height:200px;
+    box-shadow:2px 3px silver;
+	border:1px solid silver;
+}
+
+
+#ethpLink{
+    display:none;
+}
+
+@media screen and (max-width: 1191px) and (min-width: 1115px) {
+    .Investment_Tiers table td{
+	    font-size:15px;
+     }
+    .Investment_Tiers table th{
+          font-size:15px;
+    }
+
+}
+@media screen and (max-width: 1114px) and (min-width: 992px) {
+    .Investment_Tiers table td{
+	    font-size:13px;
+     }
+    .Investment_Tiers table th{
+      font-size:13px;
+    }
+
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+	body h3{
+		font-size:25px;
+	}
+	.menufixed ul li a{
+		font-size:15px;
+	}
+	.chart_box{
+	    padding:2%;
+		padding-left:14%;
+		
+	}
+	.topbox input{
+		width:100%;
+	}
+	.eye{
+		display:none;
+	}
+	
+	.Investment_Tiers table td{
+	    font-size:12px;
+     }
+    .Investment_Tiers table th{
+          font-size:12px;
+    }
+
+}
+
+@media screen and (max-width: 850px) and (min-width: 768px) {
+	.topbox{
+		min-height:240px;
+	}
+	.Investment_Tiers table td{
+	    font-size:11px;
+     }
+    .Investment_Tiers table th{
+          font-size:11px;
+    }
+
+}
+@media only screen and (max-width: 767.98px) {
+	.menufixed{
+		display:none;
+	}
+	.hidden{
+		display:block;
+	}
+	.hidden a{
+		padding-left:.3%;
+	}
+	.eye{
+		display:none;
+	}
+	.chart_box{
+	    padding-left:40%;
+	}
+}
+@media only screen and (max-width: 591.98px) {
+    .chart_box{
+	    padding-left:30%;
+	}
+}

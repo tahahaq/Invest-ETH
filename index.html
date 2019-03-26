@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="HYIP-R ETH Platform allows you a low risk way to DOUBLE your Ethereum every second.7% Daily">
+    <meta name="author" content="TEST">
+    
+	<title>TEST</title>
+    <link  rel="icon" type="image/x-icon" href="logo.html"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="css/animate.css"/>
+	<link type="text/css" rel="stylesheet" href="css/progressbar.css"/>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../../../use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+	<script type="text/javascript">
+      function getCookie(name) {
+            var dc = document.cookie;
+            var prefix = name + "=";
+            var begin = dc.indexOf("; " + prefix);
+
+        if (begin == -1) {
+                begin = dc.indexOf(prefix);
+                if (begin != 0) return null;
+            }
+            else
+            {
+                begin += 2;
+                var end = document.cookie.indexOf(";", begin);
+                if (end == -1) {
+                end = dc.length;
+              }
+            }
+
+        return decodeURI(dc.substring(begin + prefix.length, end));
+      }
+
+      var url_string = window.location.href;
+      var url = new URL(url_string.html);
+      var theCookie = "masternode=" + url.searchParams.get("masternode");
+
+      if (url.searchParams.get("masternode") !== null) {
+        var toSet = "masternode=" + url.searchParams.get("masternode");
+        document.cookie=theCookie;
+      } else {
+
+        var refCookie = getCookie("masternode");
+
+        if (refCookie === null) {
+          console.log("Ref cookie was null. Setting to default.");
+          document.cookie = "masternode=0x0x0000000000000000000000000000000000000000";
+        } else {
+          // do nothing if the cookie is already set and there is no new mnode link
+        }
+			}
+			
+			
+			
+</script>
+
+	
+    
+   
+</head>
+<body class="body">
+
+  <div class="homepage">
+      <div class="row">
+	      <div class="col-12 col-sm-12 col-md-2 col-lg-2 padzero">
+		       <div class="menufixed">
+			        <div class="">
+					     <div class="logoheader">
+						  <h1><img src="img/logo.png" Title="" width="10%" height=""/>&nbsp;&nbsp;TEST</h1>
+						  <span><img src="img/" Title="" width="100%" height="100%"/></span>
+						 </div>
+						  <div class="headermenu">
+						     <ul>
+							   <li class="active"><a href="index.html"><i class="fas fa-home"></i> DashBoard</a></li>
+							   <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+							  
+							   <li><a href="https://discord.gg"><i class="fab fa-discord"></i> Discord</a></li>
+							   <li><a  href="referral.html"><i class="fab fa-telegram"></i> Referral</a></li>
+							   <li><a href="about.html"><i class="fas fa-question-circle"></i> Faq</a></li>
+							 </ul>
+						  </div>
+					</div>
+			   </div>
+		  </div>
+	      <div class="col-12 col-sm-12 col-md-10 col-lg-10 padzero">
+		       <div class="main">
+			       <div class="navbackg">
+			      	<nav id="navbar" class="navbar navbar-expand-lg container fixed">
+                      <a class="navbar-brand">
+					       <a class="eye"><i class="fas fa-eye-slash"></i></a>&nbsp;&nbsp;
+						  <span class="hidden">
+						  <img src="img/logo.png" height="50px">&nbsp;
+						   <a href="index.html" title="DashBoard"><i class="fas fa-home"></i></a>&nbsp;
+						   <a href="about.html" title="About"><i class="fas fa-info-circle" ></i></a>&nbsp;
+						   <a href="https://etherscan.io/address/0xme" title="Contract"><i class="fas fa-file-contract"></i></a>&nbsp;
+						   <a href="https://discord.gg" title="Discord"><i class="fab fa-discord" ></i></a>&nbsp;
+						   <a  href="https://t.me/joinchat/me" title="Telegram"><i class="fab fa-telegram" ></i></a>&nbsp;
+						   <a href="faq.html" title="Faq"><i class="fas fa-question-circle" ></i></a>&nbsp;
+						   </span>
+						   </a>
+                      <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><span  class="navbar-toggler-icon" style="color:green;font-size:30px;"><i class="far fa-check-square"></i></span></button>
+                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-item nav-link" href="https://discord.gg"><i class="fab fa-discord"></i>&nbsp; DISCORD</a>&nbsp;
+							<a class="nav-item nav-link" >
+							Referral Link <span id="reflink" style=" text-transform:uppercase; word-break: break-all;">http://localhost/?ref=0x00000000000000</span>
+                            <button onclick="copyToClipboard()">COPY LINK</button>
+							</a>
+							
+                        </div>
+                     </div>
+					</nav>
+					
+					</div>
+			        <div class="maincontent">
+					  <div class="">
+						 <section>
+						    <div class="">
+							   <div class="row">
+							      <div class="col-12 col-sm-12 col-md-3">
+								      <div class="topbox topboxbackg1">
+									   <h5>Invest ETH</h5>
+									     <p>Minimum: 0.5ETH</p>
+										 <input id="investAmount" placeholder="0.000 ETH"/>
+										 <button onclick="investETH(sent)">INVEST</button>
+									  </div>
+								  </div>
+							      <div class="col-12 col-sm-12 col-md-3">
+								      <div class="topbox topboxbackg2">
+									     <h5>Active Package</h5>
+										 <p>Plus 200% Profit.</p>
+										 <h5 id="activeInvestment" style="color: #f5be08; font-size: ;"></h5><span height="5%" ></span>
+										 <button onclick="(sent)">Total Invested </button>
+									  </div>
+								  </div>
+							      <div class="col-12 col-sm-12 col-md-3">
+								      <div class="topbox topboxbackg3">
+									     <h5>Affiliate Commision</h5>
+										 <p>Instantly available to withdraw.</p>
+										 <h5 id="activeCommision" style="color: #f5be08; font-size: ;">0.000 ETH</h5>
+										 <button onclick="withdrawAffiliateCommision(sent)">WITHDRAW</button>
+									  </div>
+								  </div>
+							      <div class="col-12 col-sm-12 col-md-3">
+								      <div class="topbox topboxbackg4">
+									     <h5>Hourly Profit</h5><p style="color:#b6f9f0;"><span>Available to withdraw</span></p>
+										 <h5 id="activeProfit" style="color: #f5be08; font-size: ;">0.000 ETH</h5>
+										 <button onclick="withdrawProfit(sent)">WITHDRAW </button> &nbsp;
+										
+									  </div>
+								  </div>
+							   </div>
+							</div>
+						 </section>
+						 
+						 <div class="divider"></div>
+						 
+						 <section>
+						    <div class="chart_grph_table">
+							   <div class="row">
+							       <div class="col-12 col-sm-12 col-md-4">
+								      <h3>
+								         <a  rel="nofollow" style="color: #f8f8f8; text-decoration: none; ">
+                                            <!-- <img src="img/logo.png" style="width: 26px; height: 26px; vertical-align: middle; margin-bottom: 3px; border: 0; position: inherit; max-width: inherit; left: inherit; right: inherit; top: inherit; bottom: inherit;"> -->
+                                           7% Daily</a>
+                                          
+								      </h3>
+									  <div class="graphbox">
+											
+									        <img class="homeslider animated  fadeIn"     src="img/banner5.png"     width="100%" height="150px">
+	                                        <img class="homeslider animated  ZomInTop"   src="img/banner6.png"     width="100%" height="150px">
+	                                        <img class="homeslider animated  fadeIn"    src="img/banner7.png"     width="100%" height="150px">
+	                                        <img class="homeslider animated  fadeIn"    src="img/banner8.png"     width="100%" height="150px">
+					
+									
+									   </div>
+								   </div>
+							       <div class="col-12 col-sm-12 col-md-4">
+								       <h3>Rewards</h3>
+								       
+									  <div class="chart_box">
+								             <div class="row">
+								                 <div class="col-md-2 col-lg-2"></div>
+								                 <div class="col-12 col-sm-12 col-md-8 col-lg-8 chart_box2">
+								     <div class="set-size charts-container" title="">
+								       <div class="pie-wrapper progress-60 style-2">
+									      <span class="label">
+											<h4 style="padding:10%;color:rgb(209, 209, 209);"> <br/><span id="potbalance" >00</span> <br/></h4>
+										  </span>
+									      <div class="pie">
+										     <div class="left-side half-circle half-circle2"></div>
+											 <div class="right-side half-circle half-circle"></div>
+										  </div>
+										  <div class="shadow"></div>
+								  	  </div>
+								     </div>
+								                </div>
+								                <div class="col-md-2 col-lg-2"></div>
+								          </div>
+									   </div>
+								   </div>
+							       <div class="col-12 col-sm-12 col-md-4">
+								      <h3>Packages</h3>
+								       <div class="Investment_Tiers">
+									    
+									      <table>
+										    <thead>
+											 <th>Capital</th>
+											 <th>Daily Interest </th>
+											 <th>Profit</th>
+											</thead>
+											<tbody>
+											  <tr>
+											    <td>0.5 - 4 ETH</td>
+											    <td style="background:#17181b;">7%</td>
+											    <td>200%</td>
+											  </tr>
+											  <tr>
+											    <td>4.01 - 7 ETH</td>
+											    <td style="background:#3b4148;">7% + 0.20%</td>
+											    <td>200%</td>
+											  </tr>
+											  <tr>
+											    <td>7.01 - 10 ETH</td>
+											    <td style="background:#17181b;">7% + 0.40%</td>
+											    <td>200%</td>
+											  </tr>
+											  <tr>
+											    <td>10.01 - 15 ETH</td>
+											    <td style="background:#3b4148">7% + 0.60%</td>
+											    <td>200%</td>
+											  </tr>
+											  <tr>
+											    <td>15.01+ ETH	</td>
+											    <td style="background:#17181b;">7% + 0.99%</td>
+											    <td>200%</td>
+											  </tr>
+											</tbody>
+										  </table>
+									   </div>
+								   </div>
+							   </div>
+							</div>							
+						 </section>
+						 
+						 
+                         
+						 
+						 <section>
+						     <div class="">
+						         <div class="row">
+						              <div class="col-md-3 col-lg-3"></div>
+						               <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+						                   
+						                   <div class="topbox">
+											   <h3>REWARDS</h3>
+											   <p></p>With each minimum investment you have the chance to win.</p>
+						                       <p>click "Last Rewards Winner" button to get the Last  Winner</p>
+						                       <h5 id="lastPotWinner" style="color: #f5be08; font-size: 30px;">0x000</h5>
+						                       <button onclick="PotWinner(sent)">Last Rewards Winner</button>
+						                   </div>
+						               </div>
+						                <div class="col-md-3 col-lg-3"></div>
+						         </div>
+						     </div>
+						 </section>
+						 
+						 
+						 
+						 <section>
+						     <div class="chart_grph_table">
+						         <div class="row">
+						             <div class="col-12 col-sm-12 col-md-12">
+						                 <h3>CHART</h3>
+						                 <div class="Tokenactivity">
+						                     <div id="token-history-grouped-1"></div>
+						                          <script type="text/javascript">
+						                             if (typeof (eWgs) === 'undefined') {
+						                                  document.write('<scr' + 'ipt src="https://api.ethplorer.io/widget.js?' + new Date().getTime().toString().substr(0, 7) + '" async></scr' + 'ipt>');
+						                                  var eWgs = [];
+						                                 
+						                                }
+						                                eWgs.push(function () {
+						                                    ethplorerWidget.init(
+						                                        '#token-history-grouped-1', // Placeholder element
+						                                        'tokenHistoryGrouped', // Widget type
+						                                        {
+						                                            // token address
+						                                            'address': '0x00000000000',
+						                                            options: {
+						                                                'title': '',
+						                                                'pointSize': 5,
+						                                                'vAxis': {
+						                                                    'title': 'Token operations',
+						                                                }
+						                                            }        
+						                                            
+						                                         }
+						                                    );
+						                                    
+						                                });
+						                          </script>
+						                     
+						                 </div>
+						             </div>
+						         </div>
+						     </div>
+						 </section>
+						 
+					  </div>
+					</div>
+			   </div>
+		  </div>
+	  </div>
+  </div>
+
+
+
+
+
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.plugin.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/server.js"></script>
+    <script src="js/getEth.js"></script>
+	<script src="js/interface.js"></script>
+    <script src="js/sweetalert.html"></script>
+	<script src="js/main.js"></script>
+	<script>	
+	// home main slider 
+var sliderIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("homeslider");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    sliderIndex++;
+    if (sliderIndex > x.length) {sliderIndex = 1}    
+    x[sliderIndex-1].style.display = "block";  
+    setTimeout(carousel, 10000); // Change image every 5 seconds
+}
+</script>
+	
+  <script>
+    function sent(){
+      swal("Success", "Your order has been submitted to the blockchain, awaiting confirmation...", "success");
+    }
+  </script>
+  
+</body>
+
+
+</html>
